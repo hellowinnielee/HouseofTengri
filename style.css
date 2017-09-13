@@ -154,13 +154,15 @@ input[type=text], input[type=password] {
 
 /* Set a style for all buttons */
 button {
-    background-color: #5CAF50;
+    background-color: #666666;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
     width: 20%;
+    font-weight: 300;
+    font-size: 16px;
 }
 
 /* Float cancel and signup buttons and add an equal width */
