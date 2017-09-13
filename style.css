@@ -1,55 +1,246 @@
 /* write your CSS for the bootstrap exercise here */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+* {
+ font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+  padding: 0px;
+  height: auto;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 12px;
+  margin-left: 15px;
+  width: auto;
+}
+.expandnav .nav >li >a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+}
+
+.container2 {
+        padding-left: 0;
+        padding-right: 0;
+        overflow-x: hidden;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .row.row-no-gutter {
+        margin: 0
+    }
+    .row.row-no-gutter [class*="col-"] {
+        padding: 0
+    }
+    .img-full-width {
+        width: 100%;
+        height: auto;
+    }
+    .has-inner .row.row-no-gutter {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .row.row-no-gutter .inner {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: 200;
+    letter-spacing: 0.05em;
+}
+img {
+    max-width: 100%;
+    height:auto;
+    width:auto;
+}
 
 h1 {
+  font-size: 3.5vw;
+  width: 100%;
   color: white;
-  font: arial;
+  position: absolute;
+  top: 47%;
+  font-weight: 300;
 }
 
-label {
-  font-weight: bold;
+h2 {
+  font-size: 3.2vw;
+  width: 100%;
   color: white;
+  position: absolute;
+  top: 47%;
+  font-weight: 300;
+  text-align: center;
 }
-
-.form-inline {
-  padding-left: 20px;
-}
-
-.form-control {
-  padding-left: 5px;
-}
-
-.jumbotron {
-  min-height: 600px;
-  background-image: url('images/fruit-and-veg.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-#mission {
-  background-color: #555555;
-  color: #dddddd;
-}
-
-
-#social-buttons button {
+h3 {
+  font-size: 3.2vw;
+  width: 100%;
   color: white;
+  position: absolute;
+  top: 43%;
+  font-weight: 300;
+  text-align: center;
 }
 
-.btn-twitter {
-  background-color: #00acee;
-  border-color: #009ad5;
+h4 {
+  font-size: 2vw;
+  width: 100%;
+  color: white;
+  position: absolute;
+  top: 40%;
+  font-weight: 300;
+  text-align: center;
+}
+p.intro {
+  font-size: 1.6vw;
+  width: 100%;
+  color: white;
+  position: absolute;
+  top: 55%;
+  padding-left: 110px;
+  padding-right: 110px;
+  font-weight: 300;
+  text
 }
 
-.btn-facebook {
-  background-color: #4868ac;
-  border-color: #314776;
-}
 
-.btn-pinterest {
-background-color: #b62f26;
-border-color: #b62f26;
+    /* Footer */
+
+.Bottomrow {
+  padding-top: 8px;
+  padding-bottom: 10px;
+  background-color: #222222;
+  color: #888888;
+}
 
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #222222;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #222222;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-instagram {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #222222;
+}
+.fa-instagram:hover {
+    background-color: #93339e;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #222222;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #222222;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #222222;
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
 }
